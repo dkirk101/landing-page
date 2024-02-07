@@ -2,8 +2,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
+/* ul and li look like trash. Can this be reduced/removed? */
 ul {
     display: flex;
     flex-grow: 1;
@@ -26,13 +29,14 @@ a {
 }
 
 .right-links {
+    flex-grow: 1;
     gap: 25px;
+    justify-content: flex-end;
 }
 
 .right-links, .left-links {
     display: flex;
     flex: 1;
-    justify-content: center;
 }
 
 
@@ -50,8 +54,8 @@ a {
     flex-wrap: wrap;
 }
 
-.first-section {
+/* .first-section {
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
-}
+} */
