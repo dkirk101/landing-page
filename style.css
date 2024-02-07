@@ -2,22 +2,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
-
 
 ul {
     display: flex;
     flex-grow: 1;
     padding: 0;
-    gap: 10px;
-    margin-right: auto;
 }
 
 li {
     list-style: none;
-    display: flex;
-    margin-right: auto;
 }
 
 a {
@@ -26,12 +20,38 @@ a {
 
 .header {
     display: flex;
-    flex-direction: column;
-    /* flex-grow: 1; */
-    /* justify-content: space-around; */
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 .right-links {
-    justify-self: end;
+    gap: 25px;
+}
+
+.right-links, .left-links {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+
+
+.title-container {
+    display: flex;
+    /* flex-grow: 1; */
+    justify-content: center;
+    width: 90%;
+}
+
+.first-section {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.first-section {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
 }
