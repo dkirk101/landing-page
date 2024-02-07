@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul {
+    display: flex;
+    flex-grow: 1;
+    padding: 0;
+    gap: 10px;
+    margin-right: auto;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1; */
+    /* justify-content: space-around; */
+
+}
+
+.right-links {
+    justify-self: end;
+}
