@@ -2,14 +2,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 200px;
-    margin-right: 200px;
 }
 
 /* ul and li look like trash. Can this be reduced/removed? */
 ul {
     display: flex;
-    flex-grow: 1;
     padding: 0;
 }
 
@@ -24,22 +21,20 @@ a {
 
 .header {
     background-color: #1F2937;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-
 }
 
 .right-links {
+    display: flex;
     flex-grow: 1;
     gap: 25px;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
-.right-links, .left-links {
+.left-links {
     display: flex;
     flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -48,18 +43,14 @@ a {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    /* flex-grow: 1; */
-    justify-content: center;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: stretch;
+    /* gap: 50px; */
 }
 
 .first-section {
     display: flex;
-    flex-grow: 1;
-    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
 }
-
-/* .first-section {
-    display: flex;
-    flex-grow: 1;
-    flex-wrap: wrap;
-} */
