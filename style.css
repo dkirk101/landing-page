@@ -1,4 +1,6 @@
 body {
+    font-family: Roboto, sans-serif;
+    color: #F9FAF8;
     height: 100vh;
     margin: 0;
     display: flex;
@@ -7,14 +9,6 @@ body {
     justify-content: space-between;
     align-items: stretch;
 }
-
-/* .body-container {
-    display: flex;
-    flex: 1 1 0;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: stretch;
-} */
 
 .title-container, .info, .quotes, .sign-up {
     padding: 0 100px;
@@ -28,8 +22,21 @@ ul, li {
     gap: 18px;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 h3, h2, p {
     margin: 0;
+}
+
+/* h2 {
+    font-size: 48px;
+} */
+
+.header, .footer, .title-container {
+    background-color: #1F2937;
 }
 
 .header {
@@ -38,6 +45,14 @@ h3, h2, p {
     /* flex: 1 1 0; */
     justify-content: space-between;
     padding: 20px 100px;
+}
+
+.left-links {
+    font-size: 24px;
+}
+
+.right-links {
+    align-self: center;
 }
 
 .footer {
@@ -52,10 +67,13 @@ h3, h2, p {
 .title-container {
     display: flex;
     flex: 1;
+    gap: 15px;
 
 }
 
 .first-section {
+    font-size: 18px;
+    color: #E5E7EB;
     display: flex;
     flex-direction: column;
     flex: 1 1 0;
@@ -86,6 +104,9 @@ h3, h2, p {
 }
 
 .info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
     display: flex;
     justify-content: center;
     width: 100%;
