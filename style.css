@@ -62,7 +62,7 @@ h2, p {
 
 }
 
-/* Below styules the third section of this project, the Information section */
+/* Below styles the third section of this project, the Information section */
 
 .info {
     display: flex;
@@ -85,4 +85,13 @@ h2, p {
     height: 150px;
     width: 150px;
     
+}
+
+/* Below styles the fourth section of the this project, the Quptes section */
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
