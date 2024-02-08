@@ -22,6 +22,10 @@ ul, li {
     gap: 18px;
 }
 
+h2 {
+    margin: 0;
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -37,11 +41,7 @@ ul, li {
     align-items: center;
 }
 
-/* 
-.left-links {
+.title-container {
     display: flex;
-
+    justify-content: space-evenly;
 }
-.right-links {
-    display: flex;
-} */
