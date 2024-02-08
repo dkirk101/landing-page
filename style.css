@@ -57,8 +57,10 @@ h3, h2, p {
 
 .first-section {
     display: flex;
+    flex-direction: column;
     flex: 1 1 0;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .second-section{
