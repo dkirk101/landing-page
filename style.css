@@ -41,6 +41,8 @@ h2, p {
     align-items: center;
 }
 
+/* Below styles the second section of this project, the title section under the header */
+
 .title-container {
     display: flex;;
 }
@@ -58,4 +60,29 @@ h2, p {
     align-items: center;
     width: 50%;
 
+}
+
+/* Below styules the third section of this project, the Information section */
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.info-card {
+    border-radius: 25px;
+    border: 3px solid blue;
+    height: 150px;
+    width: 150px;
+    
 }
