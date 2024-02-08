@@ -22,7 +22,7 @@ ul, li {
     gap: 18px;
 }
 
-h2 {
+h2, p {
     margin: 0;
 }
 
@@ -42,6 +42,20 @@ h2 {
 }
 
 .title-container {
+    display: flex;;
+}
+
+.first-section {
     display: flex;
-    justify-content: space-evenly;
+    flex: 1 1 0;
+    flex-wrap: wrap;
+}
+
+.second-section{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
 }
