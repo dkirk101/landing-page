@@ -22,7 +22,7 @@ ul, li {
     gap: 18px;
 }
 
-h2, p {
+h3, h2, p {
     margin: 0;
 }
 
@@ -87,11 +87,30 @@ h2, p {
     
 }
 
-/* Below styles the fourth section of the this project, the Quptes section */
+/* Below styles the fourth section of the this project, the Quotes section */
 
 .quotes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* Below styles the fifth section of this project, the Sign-Up section*/
+
+.sign-up-box {
+    border-radius: 10px;
+    background-color: blue;
+    display: flex;;
+    justify-content: space-around;
+    padding: 35px;
+}
+
+.sign-up-text {
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-up-button2 {
+    align-self: center;
 }
