@@ -95,6 +95,7 @@ h3, h2, p {
 /* Below styles the third section of this project, the Information section */
 
 .info {
+    color: #1F2937;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -119,8 +120,11 @@ h3, h2, p {
     border: 3px solid blue;
     height: 150px;
     width: 150px;
-    
 }
+.idfk {
+    display: flex;
+    flex-direction: row;    
+} 
 
 /* Below styles the fourth section of the this project, the Quotes section */
 
