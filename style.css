@@ -10,7 +10,7 @@ body {
     align-items: stretch;
 }
 
-.title-container, .info, .quotes, .sign-up {
+.title-container, .info, .quotes{
     padding: 0 100px;
 }
 
@@ -134,6 +134,11 @@ h3, h2, p {
 }
 
 /* Below styles the fifth section of this project, the Sign-Up section*/
+
+
+.sign-up {
+    padding: 50px 100px;
+}
 
 .sign-up-box {
     border-radius: 10px;
