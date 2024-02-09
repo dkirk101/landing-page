@@ -97,9 +97,10 @@ h3, h2, p {
 .info {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex: 1;
+    gap: 40px;
 
 }
 
