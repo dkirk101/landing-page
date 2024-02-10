@@ -3,23 +3,26 @@ body {
     color: #F9FAF8;
     height: 100vh;
     margin: 0;
+    text-align: center;   
     /* display: flex;
     flex: 1 1 0;
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch; */
-    text-align: center;
+    box-sizing: border-box;
+
 }
 
 .title-container, .info, .quotes{
     padding: 0 100px;
 }
 
-ul, li {
+/* The flex in this  type selector is for making the list horizontal*/
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    /* display: flex; */
+    display: flex;
     gap: 18px;
 }
 
@@ -40,11 +43,12 @@ h3, h2, p {
     background-color: #1F2937;
 }
 
+/* this is used to align the logo and links to the left and right respectively */
 .header {
-    /* display: flex;
-    flex-direction: row; */
-    /* flex: 1 1 0; */
-    /* justify-content: space-between; */
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+    justify-content: space-between;
     padding: 20px 100px;
 }
 
@@ -58,9 +62,6 @@ h3, h2, p {
 
 .footer {
     padding: 20px 100px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 /* Below styles the second section of this project, the title section under the header */
