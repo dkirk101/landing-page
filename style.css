@@ -3,11 +3,11 @@ body {
     color: #F9FAF8;
     height: 100vh;
     margin: 0;
-    display: flex;
+    /* display: flex;
     flex: 1 1 0;
     flex-direction: column;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: stretch; */
     text-align: center;
 }
 
@@ -19,7 +19,7 @@ ul, li {
     margin: 0;
     padding: 0;
     list-style: none;
-    display: flex;
+    /* display: flex; */
     gap: 18px;
 }
 
@@ -41,10 +41,10 @@ h3, h2, p {
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     /* flex: 1 1 0; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 20px 100px;
 }
 
@@ -58,16 +58,16 @@ h3, h2, p {
 
 .footer {
     padding: 20px 100px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 /* Below styles the second section of this project, the title section under the header */
 
 .title-container {
-    display: flex;
-    flex: 1;
+    /* display: flex;
+    flex: 1; */
     gap: 15px;
 
 }
@@ -75,19 +75,19 @@ h3, h2, p {
 .first-section {
     font-size: 18px;
     color: #E5E7EB;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     flex: 1 1 0;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start; */
 }
 
 .second-section{
     background-color: grey;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    align-self: center;
+    align-self: center; */
     width: 50%;
     height: 25%;
 
@@ -97,11 +97,11 @@ h3, h2, p {
 
 .info {
     color: #1F2937;
-    display: flex;
+    /* display: flex; */
     /* flex-wrap: wrap; */
-    justify-content: flex-start;
-    align-items: center;
-    flex: 1;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* flex: 1; */
     gap: 40px;
 
 }
@@ -110,8 +110,8 @@ h3, h2, p {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    display: flex;
-    justify-content: stretch;
+    /* display: flex; */
+    /* justify-content: stretch; */
     width: 100%;
 
 }
@@ -129,11 +129,11 @@ h3, h2, p {
 .quotes {
     background-color: #E5E7EB;
     color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex: 1; */
 }
 
 /* Below styles the fifth section of this project, the Sign-Up section*/
@@ -146,10 +146,10 @@ h3, h2, p {
 .sign-up-box {
     border-radius: 10px;
     background-color: blue;
-    display: flex;;
-    justify-content: space-around;
+    /* display: flex;; */
+    /* justify-content: space-around; */
+    /* flex: 1; */
     padding: 35px;
-    flex: 1;
 }
 
 .sign-up-text {
