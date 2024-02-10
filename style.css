@@ -107,15 +107,25 @@ h3, h2, p {
     width: 400px;
 }
 
-    #hero-header {
-        font-size: 48px;
-        font-weight: bolder;
-        color: #F9FAF8
-    }
+#hero-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
     
-    .first-section p { 
-        color: #E5E7EB
-    }
+.first-section p { 
+    color: #E5E7EB
+}
+
+#sign-up-button1 {
+    border: 0px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    height: 35px;
+    width: 110px;
+    font-size: 18px;
+
+}
 
 /* Below styles the third section of this project, the Information section */
 
@@ -142,7 +152,7 @@ h3, h2, p {
 
 .info-card {
     border-radius: 25px;
-    border: 3px solid blue;
+    border: 3px solid #3882F6;
     height: 150px;
     width: 150px;
 }
@@ -169,7 +179,7 @@ h3, h2, p {
 
 .sign-up-box {
     border-radius: 10px;
-    background-color: blue;
+    background-color: #3882F6;
     /* display: flex;; */
     /* justify-content: space-around; */
     /* flex: 1; */
