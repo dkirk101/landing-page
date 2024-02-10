@@ -30,6 +30,10 @@ ul {
     gap: 18px;
 }
 
+button {
+    border-color: #3882F6;
+}
+
 a {
     text-decoration: none;
     color: #E5E7EB;
@@ -118,10 +122,13 @@ h3, h2, p {
 }
 
 #sign-up-button1 {
-    border: 0px;
     background-color: #3882F6;
+    border: solid 3px #3882F6;
+    color:#E5E7EB;
+    font-weight: 500;
+    border-style: none;
     border-radius: 10px;
-    height: 35px;
+    height: 30px;
     width: 110px;
     font-size: 18px;
 
@@ -192,5 +199,13 @@ h3, h2, p {
 }
 
 #sign-up-button2 {
-    align-self: center;
+    /* align-self: center; */
+    background-color: #3882F6;
+    border: solid 3px #E5E7EB;
+    color: #E5E7EB;
+    border-radius: 10px;
+    font-weight: 500;
+    height: 30px;
+    width: 110px;
+    font-size: 18px;
 }
