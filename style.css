@@ -98,7 +98,7 @@ h3, h2, p {
 #hero-header {
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
     
 .first-section p { 
@@ -115,6 +115,7 @@ h3, h2, p {
     height: 30px;
     width: 110px;
     font-size: 18px;
+    margin-top: 10px;
 
 }
 
