@@ -152,7 +152,7 @@ h3, h2, p {
     justify-content: center;
     align-self: center;
     width: 100%;
-
+    padding-top: 60px;
 }
 
 .info-card {
@@ -164,6 +164,7 @@ h3, h2, p {
 
 .info-text {
     width: 150px;
+    padding-bottom: 60px;
 }
 
 
