@@ -7,8 +7,8 @@ body {
     color: #F9FAF8;
     height: 100vh;
     margin: 0;
-    text-align: center;   
-    box-sizing: border-box;
+    /* text-align: center;    */
+    box-sizing: border-box;;
     /* display: flex;
     flex: 1 1 0;
     flex-direction: column;
@@ -149,6 +149,7 @@ h3, h2, p {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    display: flex;
     justify-content: center;
     align-self: center;
     width: 100%;
@@ -165,6 +166,7 @@ h3, h2, p {
 .info-text {
     width: 150px;
     padding-bottom: 60px;
+    text-align: center;
 }
 
 
@@ -173,19 +175,29 @@ h3, h2, p {
 .quotes {
     background-color: #E5E7EB;
     color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     flex: 1;
 }
 
-.quote {
-    width: 450px;
+.quote, .quote-author {
+    width: 650px;
+}
+
+.quote{
+    padding-top: 60px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .quote-author {
+    display: flex;
     justify-content: flex-end;
+    font-weight: bolder;
+    padding-bottom: 60px;
 }
 
 /* Below styles the fifth section of this project, the Sign-Up section*/
